@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import {RealExampleRef} from './components/useRef/RealExampleRef'
+// import {HooksApp} from './HooksApp'
+// import {CounterApp} from './components/useState/CounterApp'
+// import {CounterWithCustomHook} from './components/useState/CounterWithCustomHook'
+// import {SimpleForm} from './components/useEffect/SimpleForm'
+// import {FormWithCustomHook} from './components/useEffect/FormWithCustomHook'
+import {MultipleCustomHooks} from './components/examples/MultipleCustomHooks'
+// import {FocusScreen} from './components/useRef/FocusScreen'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <MultipleCustomHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );
