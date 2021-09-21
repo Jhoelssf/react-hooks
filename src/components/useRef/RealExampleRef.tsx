@@ -6,7 +6,7 @@ export const RealExampleRef = () => {
     const [show, setShow] = useState(false)
 
     return (
-        <div>
+        <div className={'container'}>
             <h1>Real Example Ref</h1>
             <hr/>
 

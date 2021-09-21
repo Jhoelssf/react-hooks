@@ -2,18 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+// import {Memorize} from './components/memos/Memorize'
+// import {MemoHook} from './components/memos/MemoHook'
+// import {CallBackHook} from './components/memos/CallBackHook'
+import {Padre} from './components/memos/Padre'
 // import {RealExampleRef} from './components/useRef/RealExampleRef'
+// import {LayoutEffect} from './components/useLayoutEffect/LayoutEffect'
 // import {HooksApp} from './HooksApp'
 // import {CounterApp} from './components/useState/CounterApp'
 // import {CounterWithCustomHook} from './components/useState/CounterWithCustomHook'
 // import {SimpleForm} from './components/useEffect/SimpleForm'
 // import {FormWithCustomHook} from './components/useEffect/FormWithCustomHook'
-import {MultipleCustomHooks} from './components/examples/MultipleCustomHooks'
+// import {MultipleCustomHooks} from './components/examples/MultipleCustomHooks'
 // import {FocusScreen} from './components/useRef/FocusScreen'
 
 ReactDOM.render(
   <React.StrictMode>
-      <MultipleCustomHooks />
+      <Padre />
   </React.StrictMode>,
   document.getElementById('root')
 );

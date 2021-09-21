@@ -10,15 +10,17 @@ export const FocusScreen = () => {
     }
 
     return (
-        <>
+        <div className={'container'}>
             <h1>Focus Screen</h1>
             <hr/>
 
             <input ref={inputRef} placeholder={'Su nombre'} className={'form-control form-control-sm'}/>
 
-            <button onClick={handleClick} className="btn btn-outline-primary mt-3">
+            <button
+                onClick={handleClick}
+                className="btn btn-outline-primary mt-3">
                 Focus
             </button>
-        </>
+        </div>
     )
 }
