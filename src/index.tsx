@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+// import {TodoApp} from './components/08-useReducer/TodoApp'
+import {MainApp} from './components/09-useContext/MainApp'
 // import {Memorize} from './components/memos/Memorize'
 // import {MemoHook} from './components/memos/MemoHook'
 // import {CallBackHook} from './components/memos/CallBackHook'
-import {Padre} from './components/memos/Padre'
+// import {Padre} from './components/memos/Padre'
 // import {RealExampleRef} from './components/useRef/RealExampleRef'
 // import {LayoutEffect} from './components/useLayoutEffect/LayoutEffect'
 // import {HooksApp} from './HooksApp'
@@ -18,7 +20,7 @@ import {Padre} from './components/memos/Padre'
 
 ReactDOM.render(
   <React.StrictMode>
-      <Padre />
+      <MainApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

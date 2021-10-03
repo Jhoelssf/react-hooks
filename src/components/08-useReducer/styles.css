@@ -1,0 +1,11 @@
+body{
+    padding: 80px;
+}
+p{
+    cursor: pointer;
+    margin: 0
+}
+
+.complete{
+    text-decoration: line-through;
+}
