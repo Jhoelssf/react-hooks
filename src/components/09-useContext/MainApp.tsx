@@ -1,9 +1,17 @@
-export const MainApp = () => {
-    return (
-        <>
-            <h1>MainScreen</h1>
-            <hr/>
+import {AppRouter} from './AppRouter'
+import {UserContext} from './UserContext'
+import {useState} from 'react'
 
-        </>
+export const MainApp = () => {
+
+    const [user, setUser] = useState({})
+
+    return (
+        <UserContext.Provider value={{
+            user,
+            setUser
+        }}>
+            <AppRouter />
+        </UserContext.Provider>
     )
 }

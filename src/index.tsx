@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals'
 // import {TodoApp} from './components/08-useReducer/TodoApp'
 import {MainApp} from './components/09-useContext/MainApp'
 // import {Memorize} from './components/memos/Memorize'
@@ -21,6 +21,7 @@ import {MainApp} from './components/09-useContext/MainApp'
 ReactDOM.render(
   <React.StrictMode>
       <MainApp />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
